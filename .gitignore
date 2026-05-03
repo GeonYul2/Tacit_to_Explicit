@@ -1,0 +1,26 @@
+# Runtime/session state
+.omx/
+
+# Local environment
+.env
+.env.*
+!.env.example
+
+# Generated outputs and caches
+cache/
+.cache/
+outputs/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python/node common artifacts, if implementation later uses them
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+build/
+coverage/
